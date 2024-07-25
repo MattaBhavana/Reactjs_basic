@@ -52,7 +52,7 @@ function Eight() {
                 <h6>Password</h6>
                 <input type="password" placeholder="Password" />
                 <h6>Email address</h6>
-                <input type="email" onChange={getEmailId} placeholder="Email address" />
+                <input type="email" onChange={getEmailId} placeholder="Email addres" />
                 <h6>Branch</h6>
                 <select className="form-select" value={branchValue} onChange={getBranch} aria-label="Default select example">
                     <option value="">Select a Branch</option>
